@@ -243,7 +243,7 @@ void loop()
           time = 0;
           setMillis(0);
         }
-        if ((unsigned long)(millis() - time) > time_delay)
+        if ((unsigned long)(millis() - time) > time_adding_delay)
         {
           setMillis(0);
         }
